@@ -279,6 +279,32 @@ reaction3.on("collect", r => {
 
 
 
+ .setThumbnail(message.author.avatarURL)    
+      
+      .addField("**۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬✦أوامر الالعاب✦▬▬▬▬▬▬▬▬▬ஜ۩**","** **")
+      .addField("**❖ +sara7a**","**لعبة صراحه**")
+      .addField("**❖ +rps**","**لعبة حجرة ورقة مقص**")
+      .addField("**❖ +لعبة الأعلام**","**اكتب اسم اي دولة عربية و يعطيك علمها**")
+      .addField("**❖ $[Soon]**","**لعبة كت  تويت**")
+      .addField("**۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩**","** **")
+
+    .setColor('#e9ab26')
+  message.author.sendEmbed(embed);
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
