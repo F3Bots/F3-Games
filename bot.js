@@ -279,22 +279,7 @@ reaction3.on("collect", r => {
 
 
 
- client.on('message' , message => {
-if (message.content === '$help') {
-           if (!message.member.hasPermission('MANAGE_MESSAGES')) return;
-         let embed = new Discord.RichEmbed()
-      .setThumbnail(message.author.avatarURL)         
-      .addField("**۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬✦أوامر الالعاب✦▬▬▬▬▬▬▬▬▬ஜ۩**","** **")
-      .addField("**❖ +sara7a**","**لعبة صراحه**")
-      .addField("**❖ +rps**","**لعبة حجرة ورقة مقص**")
-      .addField("**❖ +لعبة الأعلام**","**اكتب اسم اي دولة عربية و يعطيك علمها**")
-      .addField("**❖ $[Soon]**","**لعبة كت  تويت**")
-      .addField("**۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩**","** **")
-    .setColor('#e9ab26')
-  message.author.sendEmbed(embed);
-    }
-});
-
+ 
 
 
 client.on('message', message => {
