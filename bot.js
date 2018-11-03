@@ -290,6 +290,7 @@ if (message.content.startsWith(prefix + 'help')) { //xR1 - [ ! - Mdax ]
 『$sara7a / لعبة صراحة』
 『$rps / لعبة حجرة ورقة مقص』
 『$اكتب اسم اي دولة عربية و يعطيك علمها』
+『$cuttwet / لعبة كت تويت』
 **
    
 `]
