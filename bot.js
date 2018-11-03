@@ -279,8 +279,12 @@ reaction3.on("collect", r => {
 
 
 
- .setThumbnail(message.author.avatarURL)    
-      
+ client.on('message' , message => {
+if (message.content === '$help') {
+           if (!message.member.hasPermission('MANAGE_MESSAGES')) return;
+         let embed = new Discord.RichEmbed()
+
+      .setThumbnail(message.author.avatarURL)         
       .addField("**۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬✦أوامر الالعاب✦▬▬▬▬▬▬▬▬▬ஜ۩**","** **")
       .addField("**❖ +sara7a**","**لعبة صراحه**")
       .addField("**❖ +rps**","**لعبة حجرة ورقة مقص**")
@@ -292,20 +296,6 @@ reaction3.on("collect", r => {
   message.author.sendEmbed(embed);
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
